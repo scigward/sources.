@@ -8,6 +8,7 @@
     "version": "9000000.0.1",
     "language": "Italian",
     "streamType": "HLS",
+    "encrypted":true,
     "quality": "1080p",
     "baseUrl": "https://streamingunity.bio/it",
     "searchBaseUrl": "https://streamingunity.bio/it/archive?title=%s",
