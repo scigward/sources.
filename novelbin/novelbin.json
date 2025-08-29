@@ -9,6 +9,7 @@
     "language": "English",
     "streamType": "novels",
     "quality": "N/A",
+    "encrypted":true,
     "baseUrl": "https://novelbin.com/",
     "searchBaseUrl": "https://novelbin.com/search/?wd=%s",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/novelbin/novelbin.sora",
