@@ -8,6 +8,7 @@
     "version": "1.0.2",
     "language": "Hindi (SUB)",
     "streamType": "mp4",
+    "encrypted":true,
     "quality": "1080p",
     "baseUrl": "https://111.90.159.132/",
     "searchBaseUrl": "https://111.90.159.132/?s=%s",
