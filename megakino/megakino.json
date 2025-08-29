@@ -8,6 +8,7 @@
     "version": "1.0.1",
     "language": "German",
     "streamType": "HLS",
+    "encrypted":true,
     "quality": "1080p",
     "baseUrl": "https://megakino.com/",
     "searchBaseUrl": "https://megakino.com/",
