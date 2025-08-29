@@ -13,5 +13,6 @@
     "searchBaseUrl": "https://www.animetoast.cc/?s=the%s",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/animetoast/animetoast_v2.sora",
     "asyncJS": true,
+    "encrypted":true,
     "type": "anime"
 }
