@@ -1,0 +1,17 @@
+{
+    "sourceName": "AnimeToast",
+    "iconUrl": "https://www.animetoast.cc/wp-content/uploads/2018/03/toastfavi-300x300.png",
+    "author": {
+        "name": "50/50 & Cufiy",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.2.13",
+    "language": "German (DUB/SUB)",
+    "streamType": "MP4",
+    "quality": "1080p",
+    "baseUrl": "https://www.animetoast.cc/",
+    "searchBaseUrl": "https://www.animetoast.cc/?s=the%s",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/animetoast/animetoast_v2.sora",
+    "asyncJS": true,
+    "type": "anime"
+}
