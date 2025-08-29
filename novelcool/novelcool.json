@@ -7,6 +7,7 @@
     },
     "version": "1.0.1",
     "language": "English",
+    "encrypted":true,
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://www.novelcool.com/",
