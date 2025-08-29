@@ -13,5 +13,6 @@
     "searchBaseUrl": "https://ddys.pro/?s=%s",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/ddys/ddys.sora",
     "asyncJS": true,
+    "encrypted":true,
     "type": "movies/shows"
 }
