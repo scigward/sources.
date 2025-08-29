@@ -8,6 +8,7 @@
     "version": "1.0.1",
     "language": "Spanish (DUB/SUB)",
     "streamType": "HLS",
+    "encrypted":true,
     "quality": "1080p",
     "baseUrl": "https://poseidonhd2.co/",
     "searchBaseUrl": "https://poseidonhd2.co/",
