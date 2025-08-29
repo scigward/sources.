@@ -9,6 +9,7 @@
     "language": "Chinese (DUB)",
     "streamType": "HLS",
     "quality": "1080p",
+    "encrypted":true,
     "baseUrl": "https://www.dora-video.cn/",
     "searchBaseUrl": "https://www.dora-video.cn/search/%s",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/dora-video/dora-video.sora",
