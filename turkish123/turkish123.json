@@ -9,6 +9,7 @@
     "language": "Turkish",
     "streamType": "HLS",
     "quality": "8K UHD",
+    "encrypted":true,
     "baseUrl": "https://hds.turkish123.com/",
     "searchBaseUrl": "https://hds.turkish123.com/?s=%s",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/turkish123/turkish123.sora",
