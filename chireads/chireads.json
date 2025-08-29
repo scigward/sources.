@@ -13,7 +13,7 @@
     "searchBaseUrl": "https://chireads.com/search/%s",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/chireads/chireads.sora",
     "type": "novels",
-    v
+    "encrypted":true,
     "asyncJS": true,
     "novel": true,
     "downloadSupport": false
