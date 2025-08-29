@@ -13,5 +13,6 @@
     "searchBaseUrl": "https://www.animeworld.ac/search?keyword=%s",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/animeworld/animeworld.sora",
     "type": "anime",
+    "encrypted":true,
     "asyncJS": true
 }
