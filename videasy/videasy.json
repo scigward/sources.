@@ -8,6 +8,7 @@
     "version": "1.0.1",
     "language": "English",
     "streamType": "HLS",
+    "encrypted":true,
     "quality": "4K - 1080p - 720p",
     "baseUrl": "https://player.videasy.net/",
     "searchBaseUrl": "https://player.videasy.net/",
