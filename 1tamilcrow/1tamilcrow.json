@@ -15,5 +15,6 @@
     "type": "anime",
     "asyncJS": true,
     "softsub": false,
+    "encrypted":true,
     "downloadSupport": false
 }
