@@ -13,6 +13,7 @@
     "searchBaseUrl": "https://anoboye.com/",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/anoboye/anoboye.sora",
     "type": "anime",
+    "encrypted":true,
     "asyncJS": true,
     "softsub": false,
     "downloadSupport": false
