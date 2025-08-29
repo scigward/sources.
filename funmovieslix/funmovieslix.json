@@ -14,6 +14,7 @@
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/funmovieslix/funmovieslix.sora",
     "type": "shows/movies",
     "asyncJS": true,
+    "encrypted":true,
     "softsub": false,
     "downloadSupport": false
 }
