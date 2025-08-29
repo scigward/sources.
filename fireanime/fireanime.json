@@ -9,6 +9,7 @@
     "language": "English (SUB)",
     "streamType": "HLS",
     "quality": "1080p",
+    "encrypted":true,
     "baseUrl": "https://fireani.me/",
     "searchBaseUrl": "https://fireani.me/api/anime/search?q=%s",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/fireanime/v2/FireAnimeEngSub.sora",
