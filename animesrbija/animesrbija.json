@@ -13,5 +13,6 @@
     "searchBaseUrl": "https://www.animesrbija.com/filter?search=%s",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/animesrbija/animesrbija.sora",
     "asyncJS": true,
+    "encrypted":true,
     "type": "anime"
 }
