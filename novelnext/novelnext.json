@@ -9,6 +9,7 @@
     "language": "English",
     "streamType": "novels",
     "quality": "N/A",
+    "encrypted":true,
     "baseUrl": "https://novelnext.dramanovels.io",
     "searchBaseUrl": "https://novelnext.dramanovels.iosearch/%s",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/novelnext/novelnext.sora",
