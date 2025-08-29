@@ -14,5 +14,6 @@
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/animeheaven/animeheaven.sora",
     "type": "anime",
     "asyncJS": true,
+    "encrypted":true,
     "note": "Website was recently hit by a DMCA, so not everything might work right away, please give them time to reupload anime!"
 }
