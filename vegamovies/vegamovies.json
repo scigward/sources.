@@ -9,6 +9,7 @@
     "language": "Hindi (DUB/SUB)",
     "streamType": "HLS",
     "quality": "1080p",
+    "encrypted":true,
     "baseUrl": "https://vegamovies10.com/",
     "searchBaseUrl": "https://vegamovies10.com/",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/vegamovies/vegamovies.sora",
