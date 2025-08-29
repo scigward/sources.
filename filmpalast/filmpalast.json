@@ -14,6 +14,7 @@
     "searchBaseUrl": "https://filmpalast.to/search/title/%s",
     "scriptUrl": "https://api.jm26.net/sora-modules/filmpalast/filmpalast.sora",
     "asyncJS": true,
+    "encrypted":true,
     "streamAsyncJS": false,
     "type": "movies/shows"
 }
