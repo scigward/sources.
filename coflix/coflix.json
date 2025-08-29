@@ -13,6 +13,7 @@
     "searchBaseUrl": "https://uqload.cx/",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/coflix/coflix.sora",
     "type": "shows/movies/anime",
+    "encrypted":true,
     "asyncJS": true,
     "softsub": false,
     "downloadSupport": false
