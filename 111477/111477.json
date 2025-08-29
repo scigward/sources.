@@ -16,5 +16,6 @@
     "asyncJS": true,
     "softsub": true,
     "downloadSupport": true,
+    "encrypted":true,
     "note": "USE AN EXTERNAL PLAYER (E.G., VLC/MPV)"
 }
