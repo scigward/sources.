@@ -10,6 +10,7 @@
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://www.faselhds.xyz/",
+    "encrypted":true,
     "searchBaseUrl": "https://www.faselhds.xyz/?s=%s",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/faselhd/faselhd.sora",
     "type": "shows/movies/anime",
