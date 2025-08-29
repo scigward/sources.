@@ -9,6 +9,7 @@
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
+    "encrypted":true,
     "baseUrl": "https://lmanime.com/",
     "searchBaseUrl": "https://lmanime.com/",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/lmanime/lmanime.sora",
