@@ -9,6 +9,7 @@
     "language": "English (DUB)",
     "streamType": "HLS",
     "quality": "1080p",
+    "encrypted":true,
     "baseUrl": "https://vidmoly.to/",
     "searchBaseUrl": "https://kimcartoon.com.co/?s=%s",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/kimcartoon/kimcartoon.sora",
