@@ -2,7 +2,7 @@
 <div align="center"> 
 
 
-  <img src="https://github.com/50n50/sources/blob/main/asset.png?raw=true" width="500px">
+  <img src="https://raw.githubusercontent.com/50n50/sources/refs/heads/main/asset.png?token=GHSAT0AAAAAADI5PILEUPQQDLPK6YE4H5562FSELDA" width="500px">
 
 
 </div>
