@@ -13,5 +13,6 @@
     "searchBaseUrl": "https://www.animeunity.so/archivio?title=%s",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/animeunity/animeunity.sora",
     "asyncJS": true,
+    "encrypted":true,
     "type": "anime"
 }
