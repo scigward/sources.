@@ -15,5 +15,6 @@
     "type": "shows/movies",
     "asyncJS": true,
     "softsub": true,
+    "encrypted":true,
     "downloadSupport": true
 }
