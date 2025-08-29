@@ -9,6 +9,7 @@
     "language": "Romanian",
     "streamType": "HLS",
     "quality": "1080p",
+    "encrypted":true,
     "baseUrl": "https://www3.veziseriale.org//",
     "searchBaseUrl": "https://www3.veziseriale.org/?s=",
     "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/veziseriale/veziseriale.sora",
