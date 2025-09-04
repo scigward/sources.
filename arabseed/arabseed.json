@@ -11,7 +11,7 @@
     "quality": "1080p",
     "baseUrl": "https://a.asd.homes/",
     "searchBaseUrl": "https://a.asd.homes/?s=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/arabseed/arabseed.sora",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/arabseed/arabseed.js",
     "type": "shows/movies/anime",
     "encrypted":true,
     "asyncJS": true,
