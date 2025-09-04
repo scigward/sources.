@@ -1,0 +1,20 @@
+{
+    "sourceName": "An1me",
+    "iconUrl": "https://an1me.to/assets/apple-touch-icon.png",
+    "author": {
+        "name": "50/50",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.1",
+    "language": "Greek",
+    "streamType": "HLS",
+    "encrypted":true,
+    "quality": "1080p",
+    "baseUrl": "https://an1me.to/",
+    "searchBaseUrl": "https://an1me.to/",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/an1me/an1me.js",
+    "type": "anime",
+    "asyncJS": true,
+    "softsub": false,
+    "downloadSupport": false
+}
