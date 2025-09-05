@@ -1,21 +1,16 @@
 async function searchResults(keyword) {
     const results = [];
     try {
-        const response = await fetchv2(
-            "https://passthrough-worker.simplepostrequest.workers.dev/?url=https://a.asd.homes/wp-content/themes/Elshaikh2021/Ajaxat/SearchingTwo.php&type=formdata&body=search=" 
-            + encodeURIComponent(keyword) 
-            + "&type=all"
-        );
+        const response = await fetchv2("https://a.asd.homes/find/?find=the+" + encodeURIComponent(keyword));
         const html = await response.text();
 
-        const regex = /<a href="([^"]+)">[\s\S]*?<img[^>]+data-src="([^"]+)"[^>]*>[\s\S]*?<h4>(.*?)<\/h4>/g;
+        const regex = /<li class="box__xs__2[^>]*>[\s\S]*?<a href="([^"]+)"[^>]*>[\s\S]*?<img[^>]+src="([^"]+)"[^>]*>[\s\S]*?<h3>(.*?)<\/h3>[\s\S]*?<\/a>/g;
 
         let match;
         const tempResults = [];
 
         while ((match = regex.exec(html)) !== null) {
             const cleanedTitle = match[3].replace(/الموسم\s+\S+\s+الحلقة\s+\S+.*$/u, '').trim();
-
             tempResults.push({
                 href: match[1].trim(),
                 image: match[2].trim(),
@@ -34,6 +29,7 @@ async function searchResults(keyword) {
         }
 
         return JSON.stringify(combined);
+
     } catch (err) {
         return JSON.stringify([{
             title: "Error",
@@ -43,27 +39,34 @@ async function searchResults(keyword) {
     }
 }
 
-
 async function extractDetails(url) {
-    try {
-        const response = await fetchv2(url);
-        const html = await response.text();
-
-        const match = html.match(/<p class="descrip">(.*?)<\/p>/s);
-        const description = match ? match[1].trim() : "N/A";
-
-        return JSON.stringify([{
-            description: description,
-            aliases: "N/A",
-            airdate: "N/A"
-        }]);
-    } catch (err) {
-        return JSON.stringify([{
-            description: "Error",
-            aliases: "Error",
-            airdate: "Error"
-        }]);
+  try {
+    const response = await fetchv2(url);
+    const html = await response.text();
+    
+    const match = html.match(/<div class="post__story">\s*<p>(.*?)<\/p>\s*<\/div>/s);
+    
+    let description = "N/A";
+    
+    if (match) {
+      const rawDescription = match[1];
+      description = rawDescription.replace(/<\/?span[^>]*>/g, '').trim();
+      description = description.replace(/\s+/g, ' ');
     }
+    
+    return JSON.stringify([{
+      description: description,
+      aliases: "N/A",
+      airdate: "N/A"
+    }]);
+    
+  } catch (err) {
+    return JSON.stringify([{
+      description: "Error",
+      aliases: "Error",
+      airdate: "Error"
+    }]);
+  }
 }
 
 async function extractEpisodes(url) {
@@ -71,25 +74,43 @@ async function extractEpisodes(url) {
     try {
         const response = await fetchv2(url);
         const html = await response.text();
-
-        const regex = /<a[^>]+href="([^"]+)"[^>]*>[\s\S]*?<em>(\d+)<\/em>/g;
-
-        let match;
-        while ((match = regex.exec(html)) !== null) {
+        
+        const episodesListMatch = html.match(/<ul class="episodes__list[^>]*>([\s\S]*?)<\/ul>/);
+        if (!episodesListMatch) {
             results.push({
-                href: match[1].trim(),
-                number: parseInt(match[2], 10)
+                href: url,
+                number: 1
+            });
+            return JSON.stringify(results);
+        }
+        
+        const episodesHTML = episodesListMatch[1];
+        
+        const episodeItemRegex = /<li[^>]*>[\s\S]*?<a href="([^"]+)"[\s\S]*?الحلقة<b>(\d+)<\/b>[\s\S]*?<\/a>[\s\S]*?<\/li>/g;
+        let match;
+        const episodes = [];
+        
+        while ((match = episodeItemRegex.exec(episodesHTML)) !== null) {
+            const href = match[1].trim();
+            const episodeNumber = parseInt(match[2]);
+            episodes.push({
+                href: href,
+                number: episodeNumber
             });
         }
-
+        
+        episodes.sort((a, b) => a.number - b.number);
+        
+        results.push(...episodes);
+        
         if (results.length === 0) {
             results.push({
                 href: url,
                 number: 1
             });
         }
-
-        return JSON.stringify(results.reverse());
+        
+        return JSON.stringify(results);
     } catch (err) {
         return JSON.stringify([{
             href: url,
@@ -103,7 +124,8 @@ async function extractStreamUrl(url) {
         const response = await fetchv2(url);
         const html = await response.text();
         
-        const match = html.match(/href="([^"]+)"[^>]*class="watchBTn"/);
+        const match = html.match(/href="([^"]+)"[^>]*class="btton watch__btn"/);
+        console.log("Match found: " + match);
         if (match) {
             const extractedUrl = match[1].replace(/&amp;/g, '&');
             const headers = {
@@ -111,8 +133,9 @@ async function extractStreamUrl(url) {
             };
             const extractedResponse = await fetchv2(extractedUrl, headers);
             const extractedHtml = await extractedResponse.text();
+            console.log("Extracted HTML snippet:"+ extractedHtml);
             
-            const embedMatch = extractedHtml.match(/data-link="([^"]+)"/);
+            const embedMatch = extractedHtml.match(/<iframe[^>]*src="([^"]+)"/);
             if (embedMatch) {
                 const embedUrl = embedMatch[1];
                 const embedResponse = await fetchv2(embedUrl, headers);
