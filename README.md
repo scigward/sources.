@@ -8,10 +8,22 @@
 </div>
 
 ---
+> [!IMPORTANT]  
+> Any app meeting the following criteria is free to use my modules:  
+> 
+> 1. **No paywall, subscription, or payment** required for my modules  
+>    (you may charge for other parts of your app).  
+> 2. **No advertisements** during the usage of my modules.  
+> 3. **Open source**: your app’s source code must be publicly available.  
+> 
+> In short: **no commercial use** and **transparency is required**.
+
+
 > [!CAUTION] 
-> These modules are licensed **exclusively for use within the [Sora/Sulfur iOS app](https://github.com/cranci1/Sora)**.
 >
-> **Do not pay to use them — if someone is charging you, it's a scam.**  
+> **Do not pay to use these modules — if someone is charging you, it's a scam.**
+> 
+> **Neither should you bear watching ads to use these modules, please report apps that do this forcibly!**
 
 ---
 <img src="https://i.ibb.co/BHKwFDdT/Its-2000-x-500-px.png" alt="" width="1020" height="200">
