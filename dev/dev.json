@@ -5,13 +5,13 @@
         "name": "Dev",
         "icon": "https://cdn-icons-png.flaticon.com/512/3953/3953226.png"
     },
-    "version": "1.0.1",
+    "version": "1.0.0",
     "language": "Dev",
     "streamType": "Dev",
     "quality": "Dev",
     "baseUrl": "https://google.com/",
     "searchBaseUrl": "https://google.com/?q=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/dev/dev.sora",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/dev/dev.js",
     "asyncJS": true,
     "type": "anime"
 }

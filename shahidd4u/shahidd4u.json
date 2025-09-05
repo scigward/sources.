@@ -12,7 +12,7 @@
     "quality": "1080p",
     "baseUrl": "https://shahidd4u.net/",
     "searchBaseUrl": "https://shahidd4u.net/",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/shahidd4u/shahidd4u.sora",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/shahidd4u/shahidd4u.js",
     "type": "movies/shows",
     "asyncJS": true,
     "softsub": false,

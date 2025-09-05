@@ -5,14 +5,13 @@
         "name": "sobet",
         "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPQ1qIiALbM3xDWGsuJzu6ItaQGwb9ICRRw&s"
     },
-    "version": "1.0.5",
+    "version": "1.0.4",
     "language": "Italian",
     "streamType": "mp4",
     "quality": "720p",
     "baseUrl": "https://animeunity.so",
     "searchBaseUrl": "https://www.animeunity.so/archivio?title=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/animeunity/animeunity.sora",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/animeunity/animeunity.js",
     "asyncJS": true,
-    "encrypted":true,
     "type": "anime"
 }

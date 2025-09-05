@@ -5,16 +5,15 @@
         "name": "50/50",
         "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.1",
+    "version": "1.0.0",
     "language": "Romanian (DUB/SUB)",
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://divxfilmeonline.net/",
     "searchBaseUrl": "https://divxfilmeonline.net/",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/divxfilmeonline/divxfilmeonline.sora",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/divxfilmeonline/divxfilmeonline.js",
     "type": "shows/movies",
     "asyncJS": true,
     "softsub": true,
-    "encrypted":true,
     "downloadSupport": true
 }

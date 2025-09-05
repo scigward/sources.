@@ -5,14 +5,13 @@
         "name": "sobet",
         "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPQ1qIiALbM3xDWGsuJzu6ItaQGwb9ICRRw&s"
     },
-    "version": "1.0.5",
+    "version": "1.0.4",
     "language": "Italian",
     "streamType": "MP4",
     "quality": "1080p",
     "baseUrl": "https://animeworld.ac/",
     "searchBaseUrl": "https://www.animeworld.ac/search?keyword=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/animeworld/animeworld.sora",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/animeworld/animeworld.js",
     "type": "anime",
-    "encrypted":true,
     "asyncJS": true
 }

@@ -12,7 +12,7 @@
     "quality": "1080p",
     "baseUrl": "https://toonitalia.xyz/",
     "searchBaseUrl": "https://toonitalia.xyz/",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/toonitalia/toonitalia.sora",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/toonitalia/toonitalia.js",
     "type": "shows/movies",
     "asyncJS": true,
     "softsub": false,

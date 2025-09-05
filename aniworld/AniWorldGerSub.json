@@ -11,9 +11,8 @@
     "quality": "720p",
     "baseUrl": "https://google.com",
     "searchBaseUrl": "https://aniworld.to/ajax/seriesSearch?keyword=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/aniworld/v2/AniWorldGerSub_v2.sora",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/aniworld/v2/AniWorldGerSub_v2.js",
     "asyncJS": true,
-    "encrypted": true,
     "streamAsyncJS": false,
     "type": "anime"
 }

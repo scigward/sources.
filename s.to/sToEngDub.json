@@ -5,14 +5,13 @@
         "name": "Cufiy",
         "icon": "https://files.catbox.moe/ttj4fc.gif"
     },
-    "version": "0.3.15",
+    "version": "0.3.14",
     "language": "English (DUB)",
     "streamType": "HLS",
     "quality": "720p",
-    "encrypted":true,
     "baseUrl": "https://google.com",
     "searchBaseUrl": "https://s.to/ajax/seriesSearch?keyword=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/s.to/sToEngDub_v2.sora",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/s.to/sToEngDub_v2.js",
     "asyncJS": true,
     "streamAsyncJS": false,
     "type": "shows"

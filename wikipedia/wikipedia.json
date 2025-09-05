@@ -5,13 +5,13 @@
         "name": "Sulfur",
         "icon": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/asset.png"
     },
-    "version": "1.0.1",
+    "version": "1.0.0",
     "language": "English",
     "streamType": "HLS",
     "quality": "720p",
     "baseUrl": "https://en.wikipedia.org/wiki/List_of_films_in_the_public_domain_in_the_United_States",
     "searchBaseUrl": "https://en.wikipedia.org/wiki/List_of_films_in_the_public_domain_in_the_United_States",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/wikipedia/wikipedia.sora",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/wikipedia/wikipedia.js",
     "asyncJS": true,
     "streamAsyncJS": false
 }

@@ -5,14 +5,13 @@
         "name": "Hamzo & Cufiy",
         "icon": "https://cdn.discordapp.com/avatars/623644371819954226/591ecab10b0b4535e859bb0b9bbe62e5?size=1024"
     },
-    "version": "0.3.15",
+    "version": "0.3.14",
     "language": "German (DUB)",
     "streamType": "HLS",
     "quality": "720p",
-    "encrypted":true,
     "baseUrl": "https://google.com",
     "searchBaseUrl": "https://s.to/ajax/seriesSearch?keyword=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/s.to/sToGerDub_v2.sora",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/s.to/sToGerDub_v2.js",
     "asyncJS": true,
     "streamAsyncJS": false,
     "type": "shows"
