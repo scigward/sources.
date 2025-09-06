@@ -2,6 +2,7 @@
 
   <img src="https://github.com/50n50/sources/blob/main/asset.png?raw=true" height="200px">
 
+
 </div>
 
 
@@ -24,6 +25,14 @@
 > **Do not pay to use these modules — if someone is charging you, it's a scam.**
 > 
 > **Neither should you bear watching ads to use these modules, please report apps that do this forcibly!**
+
+---
+
+<div align="center">
+
+[![Ko-fi](https://img.shields.io/badge/support_me_on_ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=f5f5f5)](https://ko-fi.com/50n50)
+
+</div>
 
 ---
 
