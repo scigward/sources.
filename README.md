@@ -29,9 +29,7 @@
 
 <div align="center">
 
-<h3>Need help or have questions? Message me:</h3>
-
-[![Discord Presence](https://lanyard.cnrad.dev/api/1072985316916469870?theme=dark&bg=000000&animated=true&hideDiscrim=true&borderRadius=30px&idleMessage=Coding%20modules...)](https://discord.com/users/1072985316916469870)
+[![Discord Presence](https://lanyard.cnrad.dev/api/1072985316916469870?theme=dark&bg=000000&animated=false&hideDiscrim=true&borderRadius=30px&idleMessage=For%20requests%20go%20to%20Sora%20server,%20for%20questions%20about%20using%20my%20modules%20in%20your%20app%20DM%20me.%20If%20a%20module%20is%20broken%20go%20to%20Sora%20server%20or%20open%20a%20GitHub%20issue.)](https://discord.com/users/1072985316916469870)
 
 </div>
 
