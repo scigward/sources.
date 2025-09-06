@@ -14,7 +14,9 @@
 > 1. **No paywall, subscription, or payment** required for my modules  
 >    (you may charge for other parts of your app).  
 > 2. **No advertisements** during the usage of my modules.  
-> 3. **Open source**: your app’s source code must be publicly available.  
+> 3. **Open source**: your app’s source code must be publicly available.
+>    
+> All the above terms are mandatory unless given permission by the me.
 > 
 > In short: **no commercial use** and **transparency is required**.
 
