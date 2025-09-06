@@ -1,11 +1,9 @@
-
 <div align="center"> 
 
-
-  <img src="https://github.com/50n50/sources/blob/main/asset.png?raw=true" width="500px">
-
+  <img src="https://github.com/50n50/sources/blob/main/asset.png?raw=true" height="200px">
 
 </div>
+
 
 ---
 > [!IMPORTANT]  
@@ -28,5 +26,18 @@
 > **Neither should you bear watching ads to use these modules, please report apps that do this forcibly!**
 
 ---
+
+<div align="center">
+
+<h3>Need help or have questions? Message me:</h3>
+
+[![Discord Presence](https://lanyard.cnrad.dev/api/1072985316916469870)](https://discord.com/users/1072985316916469870)
+
+</div>
+
+---
 <img src="https://i.ibb.co/BHKwFDdT/Its-2000-x-500-px.png" alt="" width="1020" height="200">
+
+
+
 
