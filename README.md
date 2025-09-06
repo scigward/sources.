@@ -31,7 +31,7 @@
 
 <h3>Need help or have questions? Message me:</h3>
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/1072985316916469870)](https://discord.com/users/1072985316916469870)
+[![Discord Presence](https://lanyard.cnrad.dev/api/1072985316916469870?theme=dark&bg=000000&animated=true&hideDiscrim=true&borderRadius=30px&idleMessage=Coding%20modules...)](https://discord.com/users/1072985316916469870)
 
 </div>
 
