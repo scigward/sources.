@@ -1,7 +1,7 @@
 async function searchResults(keyword) {
     const results = [];
     try {
-        const response = await fetchv2("https://a.asd.homes/find/?find=the+" + encodeURIComponent(keyword));
+        const response = await fetchv2("https://a.asd.homes/find/?word=" + encodeURIComponent(keyword));
         const html = await response.text();
 
         const regex = /<li class="box__xs__2[^>]*>[\s\S]*?<a href="([^"]+)"[^>]*>[\s\S]*?<img[^>]+src="([^"]+)"[^>]*>[\s\S]*?<h3>(.*?)<\/h3>[\s\S]*?<\/a>/g;
