@@ -1,0 +1,18 @@
+{
+    "sourceName": "HonaDrama",
+    "iconUrl": "https://tn.honadrama.us/wp-content/uploads/2023/06/cropped-logo-google-192x192.png",
+    "author": {
+        "name": "50/50",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Arabic",
+    "streamType": "mp4",
+    "quality": "1080p",
+    "baseUrl": "https://uqload.cx/",
+    "searchBaseUrl": "https://uqload.cx/?s=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/honadrama/honadrama.js",
+    "type": "shows/movies",
+    "asyncJS": true,
+    "downloadSupport": false
+}
