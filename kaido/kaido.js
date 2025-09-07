@@ -131,13 +131,17 @@ async function extractStreamUrl(id) {
         console.log(JSON.stringify(anotherJson));
 
         const streamFile = anotherJson.sources && anotherJson.sources.length > 0 ? anotherJson.sources[0].file : null;
-        const subtitleFile = anotherJson.tracks && anotherJson.tracks.length > 0 ? anotherJson.tracks[0].file : null;
+
+        let subtitleFile = null;
+        if (anotherJson.tracks && anotherJson.tracks.length > 0) {
+            const englishTrack = anotherJson.tracks.find(track => track.label.toLowerCase() === "english");
+            if (englishTrack) subtitleFile = englishTrack.file;
+        }
 
         const result = {
             stream: streamFile,
             subtitles: subtitleFile
         };
-
         return JSON.stringify(result);
     } catch (err) {
         return "https://files.catbox.moe/avolvc.mp4";
