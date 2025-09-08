@@ -165,8 +165,9 @@ async function extractStreamUrl(url) {
         const decryptRes = await fetchv2(`https://ilovekai.simplepostrequest.workers.dev/?ilovearmpits=${result}`);
         const text = await decryptRes.text();
         const parsed = JSON.parse(text);
-        console.log(`decrypted${streamType} URL:` + parsed.url);
-        return parsed.url;
+        const replacedUrl = parsed.url.replace("megaup.site", "megaup.cc");
+        console.log(`decrypted${streamType} URL:` + replacedUrl);
+        return replacedUrl;
       } catch (error) {
         console.log(`Error processing ${streamType}:`, error);
         return null;
@@ -184,7 +185,7 @@ async function extractStreamUrl(url) {
       "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
       "Accept-Encoding": "gzip",
       "Connection": "Keep-Alive",
-      "Host": "megaup.site",
+      "Host": "megaup.cc",
       "Referer": "https://animekai.to/",
       "sec-ch-ua": "\"Android WebView\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
       "sec-ch-ua-mobile": "?0",
